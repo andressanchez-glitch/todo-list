@@ -4,29 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO list in JS</title>
-    <link rel="stylesheet" href="css/stle.css">
+    <title>Esercizio 27</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <section class="todo-wrapper">
-        <h1>La mia lista della spesa</h1>
-        <p>PS: doppio click per barrare un elemnto completato.</p>
-        <form name="todo-adder">
-            <input type="text" id="todo-entry-box">
-        </form>
-        <button id="add-button" class="pretty-button">Add</button>
 
-        <ol id="todo-list">
-
-        </ol>
-
-        <div id="control-wrapper">
-            <button id="clear-completed-button" class="pretty-button">Delte completed</button>
-            <button id="empty-button" class="pretty-button">Delte all</button>
-            <button id="save-button" class="pretty-button">Save list</button>
+    <div class="container">
+        <h1>La Mia Lista Delle Cose Da Fare</h1>
+        <p>Fai doppio click per barrare un elemnto</p>
+        <div class="input-container">
+            <form>
+                <input type="text" id="input-list" placeholder="scrivi le tue cose da fare">
+            </form>
+            <button id="add-button" class="btn-stile">Add</button>
         </div>
-    </section>
+    </div>
+    <ol id="list-ol">
+
+    </ol>
+    <div class="btn_container">
+        <div class="btn_inner">
+            <button id="delete_db" class="btn-stile" title="double click">Delete DB click</button>
+            <button id="delete_all" class="btn-stile">Delete All</button>
+            <button id="save" class="btn-stile">Save</button>
+        </div>
+    </div>
+
+
 
     <script src="js/app.js"></script>
 </body>
