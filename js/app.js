@@ -106,7 +106,8 @@ function saveList() {
 }
 
 
-//per fare in modo che la lista non si salvi se è vuota
+//per fare in modo che la lista non si salvi se è vuota 
+//ovvero se non c'è nessun elemnto
 function stopGoInterval() {
   let intervallo = setInterval(saveList, 2000);
 
@@ -139,7 +140,7 @@ function loadList() {
 loadList();
 
 
-
+//commento per GitHub
 
 
 
